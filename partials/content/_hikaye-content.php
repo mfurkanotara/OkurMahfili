@@ -1,63 +1,6 @@
 <?php
-
-    $hikaye = array(
-        "1" => array(
-            "resim" => "../photos/books/hikaye/ayvayi-yedik-muzesi.jpg",
-            "kitapAdi" => "Ayvayı Yedik Müzesi",
-            "kitapYazari" => "Mert Arık",
-            "kitapFiyati" => "₺52,19",
-        ),
-        "2" => array(
-            "resim" => "../photos/books/hikaye/naneyi-yedik-lokantasi.jpg",
-            "kitapAdi" => "Naneyi Yedik Lokantası",
-            "kitapYazari" => "Mert Arık",
-            "kitapFiyati" => "₺57,10",
-        ),
-        "3" => array(
-            "resim" => "../photos/books/hikaye/cantamdan-fil-cikti.jpg",
-            "kitapAdi" => "Çantamdan Fil Çıktı",
-            "kitapYazari" => "Mert Arık",
-            "kitapFiyati" => "₺52,19",
-        ),
-        "4" => array(
-            "resim" => "../photos/books/hikaye/bu-kadar-tantana-yeter.jpg",
-            "kitapAdi" => "Bu Kadar Tantana Yeter",
-            "kitapYazari" => "Mert Arık",
-            "kitapFiyati" => "₺51,56",
-        ),
-        "5" => array(
-            "resim" => "../photos/books/hikaye/carpi-iki.jpg",
-            "kitapAdi" => "Çarpı 2",
-            "kitapYazari" => "Hatice Kübra Tongar",
-            "kitapFiyati" => "₺71,10",
-        ),
-        "6" => array(
-            "resim" => "../photos/books/hikaye/yedek-kaleci.jpg",
-            "kitapAdi" => "Yedek Kaleci",
-            "kitapYazari" => "Hüseyin Keleş",
-            "kitapFiyati" => "₺58,44",
-        ),
-        "7" => array(
-            "resim" => "../photos/books/hikaye/dinozorumun-saklandigi-yer.jpg",
-            "kitapAdi" => "Dinozorumun Saklandığı Yer",
-            "kitapYazari" => "Mert Arık",
-            "kitapFiyati" => "₺41,96",
-        ),
-        "8" => array(
-            "resim" => "../photos/books/hikaye/dunyanin-en-korkak-hayvani.jpg",
-            "kitapAdi" => "Dünyanın En Korkak Hayvanı",
-            "kitapYazari" => "Caner Sarıoğlu",
-            "kitapFiyati" => "₺44,00",
-        ),
-        "9" => array(
-            "resim" => "../photos/books/hikaye/faruk.jpg",
-            "kitapAdi" => "Çantamdan Fil Çıktı",
-            "kitapYazari" => "Caner Sarıoğlu",
-            "kitapFiyati" => "₺58,44",
-        ),
-
-    )
-
+    require 'C:\xampp\htdocs\okur-mahfili\libs\variables.php';
+    require 'C:\xampp\htdocs\okur-mahfili\libs\functions.php';
 ?>
 <div class="container mb-3">
     <div class="card">

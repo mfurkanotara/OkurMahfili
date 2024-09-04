@@ -1,6 +1,6 @@
 <?php
-    require "libs/functions.php";
-    require "libs/variables.php";
+    require 'C:\xampp\htdocs\okur-mahfili\libs\variables.php';
+    require 'C:\xampp\htdocs\okur-mahfili\libs\functions.php';
 ?>
 
 <div class="container mb-3">

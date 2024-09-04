@@ -1,63 +1,6 @@
 <?php
-
-    $cokSatanlar = array(
-        "1" => array(
-            "resim" => "../photos/books/cok-satanlar/iyi-hissetmek.jpg",
-            "kitapAdi" => "İyi Hissetmek",
-            "kitapYazari" => "Dr. David Burns",
-            "kitapFiyati" => "₺165,03",
-        ),
-        "2" => array(
-            "resim" => "../photos/books/cok-satanlar/ayvayi-yedik-muzesi.jpg",
-            "kitapAdi" => "Ayvayı Yedik Müzesi",
-            "kitapYazari" => "Mert Arık",
-            "kitapFiyati" => "₺52,19",
-        ),
-        "3" => array(
-            "resim" => "../photos/books/cok-satanlar/naneyi-yedik-lokantasi.jpg",
-            "kitapAdi" => "Naneyi Yedik Lokantası",
-            "kitapYazari" => "Mert Arık",
-            "kitapFiyati" => "₺57,10",
-        ),
-        "4" => array(
-            "resim" => "../photos/books/cok-satanlar/cantamdan-fil-cikti.jpg",
-            "kitapAdi" => "Çantamdan Fil Çıktı",
-            "kitapYazari" => "Mert Arık",
-            "kitapFiyati" => "₺52,19",
-        ),
-        "5" => array(
-            "resim" => "../photos/books/cok-satanlar/atomik-aliskanliklar.jpg",
-            "kitapAdi" => "Atomik Alışkanlıklar",
-            "kitapYazari" => "James Clear",
-            "kitapFiyati" => "₺144,30",
-        ),
-        "6" => array(
-            "resim" => "../photos/books/cok-satanlar/yatirim-el-kitabi.png",
-            "kitapAdi" => "Yatırım El Kitabı",
-            "kitapYazari" => "Mehmet Şükrü Tekbaş",
-            "kitapFiyati" => "₺441,00",
-        ),
-        "7" => array(
-            "resim" => "../photos/books/cok-satanlar/salkim-sokak.jpg",
-            "kitapAdi" => "Salkım Sokak No:3",
-            "kitapYazari" => "İclal Aydın",
-            "kitapFiyati" => "₺168,19",
-        ),
-        "8" => array(
-            "resim" => "../photos/books/cok-satanlar/soyleme-bilmesinler.jpg",
-            "kitapAdi" => "Söyleme Bilmesinler",
-            "kitapYazari" => "Şermin Yaşar",
-            "kitapFiyati" => "₺123,20",
-        ),
-        "9" => array(
-            "resim" => "../photos/books/cok-satanlar/dortgun-ucgece.jpg",
-            "kitapAdi" => "4 Gün 3 Gece",
-            "kitapYazari" => "Ayşe Kulin",
-            "kitapFiyati" => "₺102,02",
-        )
-
-    )
-
+    require 'C:\xampp\htdocs\okur-mahfili\libs\variables.php';
+    require 'C:\xampp\htdocs\okur-mahfili\libs\functions.php';
 ?>
 <div class="container mb-3">
     <div class="card">

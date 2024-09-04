@@ -1,64 +1,6 @@
 <?php
-
-    $edebiyat = array(
-        "1" => array(
-            "resim" => "../photos/books/edebiyat/dortgun-ucgece.jpg",
-            "kitapAdi" => "4 Gün 3 Gece",
-            "kitapYazari" => "Ayşe Kulin",
-            "kitapFiyati" => "₺102,02",
-        ),
-        "2" => array(
-            "resim" => "../photos/books/edebiyat/soyleme-bilmesinler.jpg",
-            "kitapAdi" => "Söyleme Bilmesinler",
-            "kitapYazari" => "Şermin Yaşar",
-            "kitapFiyati" => "₺123,20",
-        ),
-        
-        "3" => array(
-            "resim" => "../photos/books/edebiyat/insanligimi-yitirirken.png",
-            "kitapAdi" => "İnsanlığımı Yitirirken",
-            "kitapYazari" => "Osamu Dazai",
-            "kitapFiyati" => "₺12,88",
-        ),
-        "4" => array(
-            "resim" => "../photos/books/edebiyat/salkim-sokak.jpg",
-            "kitapAdi" => "Salkım Sokak No:3",
-            "kitapYazari" => "İclal Aydın",
-            "kitapFiyati" => "₺168,19",
-        ),
-        "5" => array(
-            "resim" => "../photos/books/edebiyat/kaplanin-sirtinda.jpg",
-            "kitapAdi" => "Kaplanın Sırtında",
-            "kitapYazari" => "Zülfü Livaneli",
-            "kitapFiyati" => "₺108,90",
-        ),
-        "6" => array(
-            "resim" => "../photos/books/edebiyat/saatleri-ayarlama-enstitusu.jpg",
-            "kitapAdi" => "Saatleri Ayarlama Enstitüsü",
-            "kitapYazari" => "Ahmet Hamdi Tanpınar",
-            "kitapFiyati" => "₺240,00",
-        ),
-        "7" => array(
-            "resim" => "../photos/books/edebiyat/labirent.jpg",
-            "kitapAdi" => "Labirent",
-            "kitapYazari" => "Amin Maalouf",
-            "kitapFiyati" => "₺103,41",
-        ),
-        "8" => array(
-            "resim" => "../photos/books/edebiyat/nietzsche-agladiginda.jpg",
-            "kitapAdi" => "Nietzsche Ağladığında",
-            "kitapYazari" => "Irvin D. Yalom",
-            "kitapFiyati" => "₺178,20",
-        ),
-        "9" => array(
-            "resim" => "../photos/books/edebiyat/yasamak.jpg",
-            "kitapAdi" => "Yaşamak",
-            "kitapYazari" => "Yu Hua",
-            "kitapFiyati" => "₺109,38",
-        )
-
-    )
-
+    require 'C:\xampp\htdocs\okur-mahfili\libs\variables.php';
+    require 'C:\xampp\htdocs\okur-mahfili\libs\functions.php';
 ?>
 <div class="container mb-3">
     <div class="card">

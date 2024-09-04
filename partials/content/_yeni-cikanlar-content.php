@@ -1,63 +1,6 @@
 <?php
-
-    $yeniCikanlar = array(
-        "1" => array(
-            "resim" => "../photos/books/yeni-cikanlar/sadece-Allaha-muhtacsin.jpg",
-            "kitapAdi" => "Sadece Allah'a Muhtaçsın",
-            "kitapYazari" => "Nilsun Urallı",
-            "kitapFiyati" => "₺220,00",
-        ),
-        "2" => array(
-            "resim" => "../photos/books/yeni-cikanlar/abherul-asikin.jpg",
-            "kitapAdi" => "Abherül Aşıkın",
-            "kitapYazari" => "Ruzbihan Bakli",
-            "kitapFiyati" => "₺89,38",
-        ),
-        "3" => array(
-            "resim" => "../photos/books/yeni-cikanlar/aldim-biraz-konustum.png",
-            "kitapAdi" => "Aldım, Biraz Konuştum",
-            "kitapYazari" => "Bayram Ali Artar",
-            "kitapFiyati" => "₺100,00",
-        ),
-        "4" => array(
-            "resim" => "../photos/books/yeni-cikanlar/dokuntuler.jpg",
-            "kitapAdi" => "Döküntüler",
-            "kitapYazari" => "Dila Cengiz",
-            "kitapFiyati" => "₺65,00",
-        ),
-        "5" => array(
-            "resim" => "../photos/books/yeni-cikanlar/suphe.jpg",
-            "kitapAdi" => "Şüphe: Hayri Bey'in Vefatı İntihar mı Cinayet mi?",
-            "kitapYazari" => "Prof. Dr. Ali Akyıldız",
-            "kitapFiyati" => "₺178,75",
-        ),
-        "6" => array(
-            "resim" => "../photos/books/yeni-cikanlar/altmis-oyku.jpg",
-            "kitapAdi" => "Altmış Öykü",
-            "kitapYazari" => "Dino Buzzati",
-            "kitapFiyati" => "₺214,50",
-        ),
-        "7" => array(
-            "resim" => "../photos/books/yeni-cikanlar/japon-masallari.jpg",
-            "kitapAdi" => "Japon Masalları",
-            "kitapYazari" => "Kunio Yanagita",
-            "kitapFiyati" => "₺100,00",
-        ),
-        "8" => array(
-            "resim" => "../photos/books/yeni-cikanlar/suyun-rengi.jpg",
-            "kitapAdi" => "Suyun Rengi",
-            "kitapYazari" => "Açelya Daştan",
-            "kitapFiyati" => "₺100,00",
-        ),
-        "9" => array(
-            "resim" => "../photos/books/yeni-cikanlar/aci-gecer-sizi-kalir.png",
-            "kitapAdi" => "Acı Geçer Sızı Kalır",
-            "kitapYazari" => "Memduh Şevket Esendal",
-            "kitapFiyati" => "₺22,85",
-        )
-
-    )
-
+    require 'C:\xampp\htdocs\okur-mahfili\libs\variables.php';
+    require 'C:\xampp\htdocs\okur-mahfili\libs\functions.php';
 ?>
 <div class="container mb-3">
     <div class="card">

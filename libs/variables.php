@@ -1,4 +1,8 @@
 <?php
+
+    const db_username = "admin";
+    const db_password = "1234";
+
     $cokSatanlar = array(
         "1" => array(
             "resim" => "../photos/books/cok-satanlar/iyi-hissetmek.jpg",

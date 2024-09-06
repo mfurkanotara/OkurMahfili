@@ -25,8 +25,18 @@
     <div class="navbar-button">
       Üyelik
       <div class="dropdown-menu">
-        <a href="login.php" class="category">Giriş Yap</a>
-        <a href="register.php" class="category">Kayıt Ol</a>
+
+        <?php if(isset($_COOKIE["username"])): ?>
+
+            <a href="profile.php" class="category">Hoş geldin! <?php echo $_COOKIE["username"]?></a>
+            <a href="logout.php" class="category">Çıkış Yap</a>
+
+        <?php else: ?>
+
+            <a href="login.php" class="category">Giriş Yap</a>
+            <a href="register.php" class="category">Kayıt Ol</a>
+
+        <?php endif; ?>
       </div>
     </div>
     

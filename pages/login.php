@@ -1,6 +1,21 @@
 <?php
     require 'C:\xampp\htdocs\okur-mahfili\libs\variables.php';
     require 'C:\xampp\htdocs\okur-mahfili\libs\functions.php';
+
+    if(isset($_POST["login"])) {
+        $username = $_POST["username"];
+        $password = $_POST["password"];
+
+        if($username == db_username && $password == db_password) {
+            setcookie("username", $username, time() + (60 * 60 * 24));
+            setcookie("auth", true, time() + (60 * 60 * 24));
+
+            header("Location: index.php");
+        } else {
+            echo "<div class='alert alert-danger mb-0 text-center'>Yanlış kullanıcı adı veya parola!</div>";
+        }
+    }
+
 ?>
 
 <?php include "../partials/_header.php" ?>

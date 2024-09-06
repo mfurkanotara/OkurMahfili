@@ -49,10 +49,10 @@
                 <h5 class="card-title"><?php echo htmlspecialchars($kitap["kitapAdi"]); ?></h5>
                 <p class="card-text">
                     <?php
-                        if (strlen($kitap["kitapAciklamasi"]) > 50):
-                            echo htmlspecialchars(substr($kitap["kitapAciklamasi"], 0, 50)) . "...";
+                        if (strlen($kitap["aciklama"]) > 50):
+                            echo htmlspecialchars(substr($kitap["aciklama"], 0, 50)) . "...";
                         else:
-                            echo htmlspecialchars($kitap["kitapAciklamasi"]);
+                            echo htmlspecialchars($kitap["aciklama"]);
                         endif;
                     ?>
                 </p>

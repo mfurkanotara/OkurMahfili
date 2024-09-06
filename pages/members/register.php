@@ -1,1 +1,0 @@
-<?php include "../../partials/content/_register-content.php" ?>

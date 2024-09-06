@@ -25,8 +25,8 @@
     <div class="navbar-button">
       Üyelik
       <div class="dropdown-menu">
-        <a href="members/login.php" class="category">Giriş Yap</a>
-        <a href="members/register.php" class="category">Kayıt Ol</a>
+        <a href="login.php" class="category">Giriş Yap</a>
+        <a href="register.php" class="category">Kayıt Ol</a>
       </div>
     </div>
     

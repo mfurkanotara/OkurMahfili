@@ -26,9 +26,9 @@
       Üyelik
       <div class="dropdown-menu">
 
-        <?php if(isset($_COOKIE["username"])): ?>
+        <?php if(isset($_COOKIE["auth"])): ?>
 
-            <a href="profile.php" class="category">Hoş geldin! <?php echo $_COOKIE["username"]?></a>
+            <a href="profile.php" class="category">Hoş geldin! <?php echo $_COOKIE["auth"]["name"]?></a>
             <a href="logout.php" class="category">Çıkış Yap</a>
 
         <?php else: ?>

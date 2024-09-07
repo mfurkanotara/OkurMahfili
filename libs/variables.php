@@ -1,7 +1,10 @@
 <?php
 
-    const db_username = "admin";
-    const db_password = "1234";
+    const db_user = array(
+            "username" => "mfurkanotara",
+            "password" => "1234",
+            "name" => "Muhammet Furkan OTARA",
+    );
 
     $cokSatanlar = array(
         "1" => array(

@@ -2,8 +2,6 @@
     require 'C:\xampp\htdocs\okur-mahfili\libs\variables.php';
     require 'C:\xampp\htdocs\okur-mahfili\libs\functions.php';
 
-    session_start();
-
     // Kitapları oturumdan al veya yeni bir dizi oluştur
     if (!isset($_SESSION['kitaplar'])) {
         $_SESSION['kitaplar'] = array();

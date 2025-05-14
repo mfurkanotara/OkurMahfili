@@ -1,1 +1,1 @@
-Burası düzenlenecek.
+
